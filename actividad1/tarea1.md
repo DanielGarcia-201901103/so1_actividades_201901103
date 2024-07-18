@@ -1,4 +1,4 @@
-#**Persona 1**
+# **Persona 1**
 
 *Sistema operativo:*
 > Es lo que se utiliza en la computadora cuando se enciende, y ayuda con el uso de los diferentes programas, como windows.
@@ -9,7 +9,7 @@
 *IP:*
 > Según tengo entendido son unos numeros que configuran el internet para que funcione en las computadoras.
 
-#**Persona 2**
+# **Persona 2**
 
 *Sistema operativo:*
 >s
@@ -18,6 +18,6 @@
 *IP:*
 >
 
-#**Conclusión en base a los comentarios**
+# **Conclusión en base a los comentarios**
 
 >
