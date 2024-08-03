@@ -1,7 +1,7 @@
 # **Parte 1: Gestión de Usuarios**
 1. Creación de Usuarios: Crea tres usuarios llamados `usuario1`, `usuario2` y `usuario3`.
 
-![Creación de Usuarios](actividad3\img\1.jpg)
+![Creación de Usuarios](./img/1.jpg)
 
 2. Asignación de Contraseñas: Establece una nueva contraseñas para cada usuario creado.
 
