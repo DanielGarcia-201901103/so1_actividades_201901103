@@ -18,9 +18,9 @@
 
 # **Parte 3: Gestión de Permisos**
 1. Creación de Archivos y Directorios:
+Como `usuario1`, crea un archivo llamado `archivo1.txt` en su directorio principal y escribe algo en él.
+Crea un directorio llamado `directorio1` y dentro de ese directorio, un archivo llamado `archivo2.txt`.
 
-- Como `usuario1`, crea un archivo llamado `archivo1.txt` en su directorio principal y escribe algo en él.
-- Crea un directorio llamado `directorio1` y dentro de ese directorio, un archivo llamado `archivo2.txt`.
 2. Verificar Permisos: Verifica los permisos del archivo y directorio usando el comando `ls -l` y `ls -ld` respectivamente.
 
 3. Modificar Permisos usando `chmod` con Modo Numérico: Cambia los permisos del `archivo1.txt` para que sólo `usuario1` pueda leer y escribir (permisos `rw-`), el grupo pueda leer (permisos `r--`) y nadie más pueda hacer nada.
@@ -38,5 +38,10 @@
 # **Reflexión: (Opcional)**
 Contestar las siguientes preguntas:
 
-- ¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?
-- ¿Qué otros comandos o técnicas conocen para gestionar permisos en Linux?
+¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?
+
+> Es de gran importancia para mantener la seguridad y los datos de manera integra. Así mismo permite tener el control de quién puede acceder y modificar archivos, de tal manera que se previene de accesos no autorizados y así se evita la perdida de información o otros posibles daños.
+
+¿Qué otros comandos o técnicas conocen para gestionar permisos en Linux?
+
+> chown: para cambiar el propietario de un archivo, chmod: modifica permisos de manera granular, setfacl: establece listas de control de acceso que proporciona un control más detallado sobre permisos.
