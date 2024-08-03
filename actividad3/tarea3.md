@@ -47,6 +47,9 @@ Crea un directorio llamado `directorio1` y dentro de ese directorio, un archivo 
 
 ![Modificar Permisos usando `chmod` con Modo Numérico](./img/3_3.jpg)
 
+> [!NOTE]
+> Me equivoqué en el permiso y escribí el 644 (no interpreté correctamente), cuando en realidad debería haber sido 640.
+
 4. Modificar Permisos usando `chmod` con Modo Simbólico: Agrega permiso de ejecución al propietario del `archivo2.txt`.
 
 ![Modificar Permisos usando `chmod` con Modo Simbólico](./img/3_4.jpg)
@@ -58,6 +61,9 @@ Crea un directorio llamado `directorio1` y dentro de ese directorio, un archivo 
 6. Configurar Permisos de Directorio: Cambia los permisos del `directorio1` para que sólo el propietario pueda entrar (permisos `rwx`), el grupo pueda listar contenidos pero no entrar (permisos `r--`), y otros no puedan hacer nada.
 
 ![Configurar Permisos de Directorio](./img/3_6.jpg)
+
+> [!NOTE]
+> Me equivoqué en el permiso al teclear y escribí el 750, cuando en realidad debería haber sido 740. Esto cambia los resultados de los accesos del paso 7 y permisos del paso 8.
 
 7. Comprobación de Acceso: Intenta acceder al `archivo1.txt` y `directorio1/archivo2.txt` como `usuario2`. Nota cómo el permiso de directorio afecta el acceso a los archivos dentro de él.
 
