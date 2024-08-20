@@ -37,7 +37,7 @@ Este es un servicio `systemd` que ejecuta un script que imprime un saludo y la f
     sudo systemctl start actividad.service
     ```
 
-## Verificación
+## Verificación de logs
 
 - Para verificar el estado del servicio:
     ```bash
@@ -49,26 +49,14 @@ Este es un servicio `systemd` que ejecuta un script que imprime un saludo y la f
     sudo journalctl -u actividad.service
     ```
 
-## Detener el Servicio
+## Adicional se puede - Detener el Servicio y Eliminar archivos
 
-- Para detener el servicio:
+1. Para detener el servicio:
     ```bash
     sudo systemctl stop actividad.service
     ```
 
-- Para deshabilitar el servicio del arranque automático:
-    ```bash
-    sudo systemctl disable actividad.service
-    ```
-
-## Desinstalación
-
-1. Detén el servicio:
-    ```bash
-    sudo systemctl stop actividad.service
-    ```
-
-2. Deshabilita el servicio del arranque automático:
+2. Para deshabilitar el servicio del arranque automático:
     ```bash
     sudo systemctl disable actividad.service
     ```
