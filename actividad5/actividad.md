@@ -21,12 +21,12 @@ Un microkernel es un kernel que se enfoca en proporcionar solo las funcionalidad
 Ejemplos de sistemas operativos que utilizan microkernels son QNX y Symbian.
 
 **Ventajas**
--Mayor flexibilidad y escalabilidad.
--Mayor seguridad y estabilidad.
+- Mayor flexibilidad y escalabilidad.
+- Mayor seguridad y estabilidad.
 
 **Desventajas**
--Mayor complejidad en la comunicación entre módulos.
--Mayor sobrecarga en términos de rendimiento.
+- Mayor complejidad en la comunicación entre módulos.
+- Mayor sobrecarga en términos de rendimiento.
 
 ## 3. Hybrid kernel
 
