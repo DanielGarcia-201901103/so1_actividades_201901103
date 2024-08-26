@@ -10,6 +10,7 @@ Ejemplos de sistemas operativos que utilizan kernels monolíticos son Linux y wi
 **Ventajas**
 - Mayor eficiencia en términos de rendimiento.
 - Mayor control sobre el sistema.
+
 **Desventajas**
 - Mayor complejidad y tamaño del código.
 - Mayor riesgo de errores y fallos.
